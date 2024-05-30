@@ -40,11 +40,9 @@ const NewsCard = ({ news }) => {
       <h3 className="text-2xl font-bold mt-2 px-8">{title}</h3>
       <div className="card-body">
         <img
-          className="card-img-top"
+          className="card-img-top w-full"
           src={image_url}
           alt=""
-          width={518}
-          height={262}
         />
         {details.length > 200 ? (
           <p className="mt-[32px] text-[#706F6F] text-[16px]">
