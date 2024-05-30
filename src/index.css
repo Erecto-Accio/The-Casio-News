@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Poppins";
+}
+.heading {
+  font-family: "UnifrakturCook";
+  text-align: center;
+  margin-top: 25px;
+  font-size: 65px;
+}
+.bangla-font {
+  font-family: "Noto Sans Bengali";
+}
+.left-last-topic {
+  background-image: url("./assets/bg.png");
+  width: 285px;
+  height: 509px;
+}
+.read-more {
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
